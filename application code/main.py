@@ -59,15 +59,16 @@ class Order:
             return "You can only order ONE product"
 
 
-p1 = Product.add_product("Laptop", "Electronics", 50, 1000, "Supplier A")
-
-update_p1 = Product.update_product(1, quantity=45, price=950)
-
-delete_p1 = Product.delete_product(1)
-
-p2 = Product.add_product("Laptop", "Electronics", 50, 1000, "Supplier A")
-print(p2)
-
-order = Order(order_id=1, products=[])
-order_placement = order.place_order(1, 2, customer_info="John Doe")
-print(order_placement)
+if __name__ = "__main__":
+    p1 = Product.add_product("Laptop", "Electronics", 50, 1000, "Supplier A")
+    
+    update_p1 = Product.update_product(1, quantity=45, price=950)
+    
+    delete_p1 = Product.delete_product(1)
+    
+    p2 = Product.add_product("Laptop", "Electronics", 50, 1000, "Supplier A")
+    print(p2)
+    
+    order = Order(order_id=1, products=[])
+    order_placement = order.place_order(1, 2, customer_info="John Doe")
+    print(order_placement)
