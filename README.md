@@ -9,7 +9,6 @@ This Python application manages an inventory of products and allows for basic or
 
 * Demonstrated understanding of class creation and instantiation.
 * Implemented class methods for managing inventory data.
-* Utilized inheritance to extend functionality between `Product` and `Order` classes.
 * Used class methods to manipulate shared class-level data (inventory).
 * Gained experience in managing object relationships (e.g., `Order` containing references to `Product`).
 
