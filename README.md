@@ -68,8 +68,6 @@ retail-inventory-management/
 | Insertion Sort | O(n²) average | O(1) |
 | Merge Sort | O(n log n) | O(n) |
 
-*When deleted IDs need to be reused and array requires sorting
-
 ## Usage Examples
 
 ### Adding Products
